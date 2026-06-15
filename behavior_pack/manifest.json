@@ -1,0 +1,18 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "DNA SMP Behavior Pack - Unlock mob abilities by gaining DNA",
+    "name": "DNA SMP Behavior Pack",
+    "uuid": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p6",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 19, 0]
+  },
+  "modules": [
+    {
+      "description": "DNA SMP Module",
+      "type": "data",
+      "uuid": "b2c3d4e5-f6g7-h8i9-j0k1-l2m3n4o5p6q7",
+      "version": [1, 0, 0]
+    }
+  ]
+}

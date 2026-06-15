@@ -1,0 +1,13 @@
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Minecraft
+.mcpack
+.mcworld
+
+# OS
+Thumbs.db
