@@ -23,6 +23,9 @@ Each player is assigned a random mob on first join:
 | **Ghast** | Fireball | Launches large powerful fireball | 5 min |
 | **Wither Skeleton** | Wither Strike | Deals damage + 20% chance for Wither effect | 5 min |
 | **Ender Dragon** | Dragon's Breath | Shoots dragon breath, 10 hearts damage (12 block radius) | 9 min |
+| **Phantom** | Flight Burst | Levitation + Speed for 10 seconds | 5 min |
+| **Skeleton** | Arrow Barrage | Shoots 6 arrows in all directions | 5 min |
+| **Zombie** | Infection Regen | Regeneration II (45s) + Weakness on enemies | 5 min |
 
 ### Crafting Recipes
 
@@ -67,6 +70,9 @@ Each player is assigned a random mob on first join:
 - Ghast: `/function dna/abilities/ghast`
 - Wither Skeleton: `/function dna/abilities/wither_skeleton`
 - Ender Dragon: `/function dna/abilities/ender_dragon`
+- Phantom: `/function dna/abilities/phantom`
+- Skeleton: `/function dna/abilities/skeleton`
+- Zombie: `/function dna/abilities/zombie`
 
 ### DNA Icons
 
@@ -76,7 +82,7 @@ All items feature DNA-themed icons in the resource pack showing DNA strands and 
 
 - `dna_count` - Player's current DNA count (0-5)
 - `dna_max` - Maximum DNA (5)
-- `mob_type` - Player's assigned mob type (1-7)
+- `mob_type` - Player's assigned mob type (1-10)
 - `ability_cooldown` - Current ability cooldown in ticks
 - `deaths` - Death counter
 - `kills` - Kill counter
@@ -95,6 +101,6 @@ For issues or suggestions, please create an issue in the repository.
 
 ---
 
-**Version:** 1.0.0  
+**Version:** 1.1.0  
 **Minecraft:** Bedrock 1.19+  
 **Made for:** SMP Servers
