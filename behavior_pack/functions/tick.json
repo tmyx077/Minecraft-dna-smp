@@ -1,5 +1,6 @@
 {
   "values": [
-    "dna/abilities/cooldown_tick"
+    "dna/abilities/cooldown_tick",
+    "dna/check_join"
   ]
 }
